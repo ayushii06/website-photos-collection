@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f1ebe4;
+}
+
+li {
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #605135;
+    cursor: pointer;
+}
+
+
+header {
+    background-image: url(./photos/photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /* width: 100vw; */
+    height: 100vh;
+    font-size: 15px;
+    font-weight: 700;
+    color: #443720;;
+}
+
+
+ul {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    height: 58px;
+    width: 126px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 41px;
+
+    justify-content: center;
+
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vw;
+    padding: 50px;
+    margin-bottom: 121px;
+}
+
+.intro{
+    font-size: 35px;
+    color: white;
+}
+
+.name{
+    font-size: 45px;
+    margin-top: 27px;
+    color: white;
+}
+
+.hrline {
+    /* width: 100vw; */
+    height: 1.7px;
+    /* position: relative;
+    top: 22vh; */
+    /* z-index: 10; */
+    background: white;
+
+}
+
+.section-2{
+    /* background-color: aqua; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color: #805617; */
+    /* color: white; */
+    text-align: center;
+    padding-top: 0px;
+    /* font-size: 17px; */
+
+}
+.mg{
+    margin-bottom: 0px;
+}
+
+.brief{
+    margin: 11px;
+    max-width: 61vw;
+}
+.resume-btn{
+    margin: 25px;
+    padding: 15px;
+    width: 138px;
+    font-size: 16px;
+    background: #5a4b2e;
+    color: white;
+    border: none;
+}
+
+.resume-btn:hover{
+    background: #705e3b;
+    cursor: pointer;
+}
+
+
+.follow{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 38px 0px 32px 0px;
+    color: #695b36;
+}
+
+.links{
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+}
+
+.logo-link{
+    height: 30px;
+    width: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-line{
+    width: 100%;
+    height: 0.7px;
+    background-color: #695b36;
+    margin: 60px 0px 32px 0px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    color: #5a4b2e;
+    padding: 28px;
+}
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: #5a4b2e;
+    padding: 28px;
+}
